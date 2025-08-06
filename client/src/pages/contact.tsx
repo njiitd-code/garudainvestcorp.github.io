@@ -106,7 +106,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="font-medium text-navy">Email</div>
-                    <div className="text-gray-600">investors@garudainvest.com</div>
+                    <div className="text-gray-600">investors@garudainvestcorp.com</div>
                   </div>
                 </div>
                 
