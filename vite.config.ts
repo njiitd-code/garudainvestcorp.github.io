@@ -7,7 +7,7 @@ const isGitHubPages = process.env.GITHUB_REPOSITORY?.includes('garudainvestcorp.
 
 
 export default defineConfig({
-  base: isProd && isGitHubPages ? '/garudainvestcorp.github.io/' : '/',
+  base: isProd && isGitHubPages ? '/garudainvestcorp.github.io' : '/',
   plugins: [
     react(),
     runtimeErrorOverlay(),
