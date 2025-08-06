@@ -4,7 +4,7 @@ import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 const isGitHubPages = process.env.NODE_ENV === 'production';
 export default defineConfig({
-  base: isGitHubPages ? '/garudainvestcorp.github.io' : '/',
+  base: isGitHubPages ? '/' : '/',
   plugins: [
     react(),
     runtimeErrorOverlay(),

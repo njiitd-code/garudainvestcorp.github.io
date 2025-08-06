@@ -4,7 +4,7 @@ import "./index.css";
 import { Router } from "wouter";
 
 createRoot(document.getElementById("root")!).render(
-<Router base={import.meta.env.MODE === "production" ? "/garudainvestcorp.github.io" : "/"}>
+<Router base={import.meta.env.MODE === "production" ? "/" : "/"}>
   <App />
 </Router>
 );

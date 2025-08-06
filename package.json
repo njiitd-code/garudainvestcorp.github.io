@@ -8,7 +8,7 @@
     "build": "vite build",
     "build:gh": "vite build",
     "predeploy": "npm run build",
-     "postbuild": "cp dist/index.html dist/404.html",
+     "postbuild": "echo 'www.garudainvestcorp.com' > dist/CNAME && cp dist/index.html dist/404.html",
     "deploy": "rm -rf node_modules/.cache/gh-pages  && npm run build &&npm run postbuild && gh-pages -d dist",
     "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc",
