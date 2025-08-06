@@ -50,7 +50,7 @@ const Home = () => {
                 ))}
               </div>
 
-              <Link href="/about">
+              <Link href="about">
                 <Button className="bg-navy hover:bg-navy-light text-white">
                   Learn More <ArrowRight className="ml-2" size={16} />
                 </Button>
@@ -152,12 +152,12 @@ const Home = () => {
               in EMS, Aerospace, and Defence sectors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/contact">
+              <Link href="contact">
                 <Button size="lg" className="bg-gold hover:bg-gold-dark text-black font-semibold">
                   Start Investing <ArrowRight className="ml-2" size={20} />
                 </Button>
               </Link>
-              <Link href="/portfolio">
+              <Link href="portfolio">
                 <Button 
                   size="lg" 
                   variant="outline" 

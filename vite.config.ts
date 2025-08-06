@@ -2,9 +2,9 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
 import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
-
+const isGitHubPages = process.env.NODE_ENV === 'production';
 export default defineConfig({
-  base: '/garudainvestcorp.github.io',
+  base: isGitHubPages ? '/garudainvestcorp.github.io/' : '/',
   plugins: [
     react(),
     runtimeErrorOverlay(),
