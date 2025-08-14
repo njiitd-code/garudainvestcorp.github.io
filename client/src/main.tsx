@@ -7,7 +7,7 @@ import ComingSoon from "./pages/ComingSoon";
 const isGitHubPages = import.meta.env.BASE_URL.includes('garudainvestcorp.github.io');
 
 // ✅ TOGGLE this to `true` or `false`
-const comingSoon = true;
+const comingSoon = false;
 
 createRoot(document.getElementById("root")!).render(
   <Router base={isGitHubPages ? '/garudainvestcorp.github.io' : '/'}>
